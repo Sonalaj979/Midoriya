@@ -3,7 +3,6 @@ name: Automated Workflow
 on:
   schedule:
     - cron: '0 9 * * *'
-  push:
 
 jobs:
   automate_process:
